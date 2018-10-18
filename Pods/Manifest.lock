@@ -1,0 +1,52 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - BarrageRenderer (2.1.0)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.1.0)
+  - MJRefresh (3.1.15.6)
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
+  - UMengAnalytics-NO-IDFA (4.2.5)
+  - WMPageController (2.5.2)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - AFNetworking
+  - BarrageRenderer
+  - Masonry
+  - MBProgressHUD
+  - MJRefresh
+  - SDWebImage
+  - UMengAnalytics-NO-IDFA (~> 4.2.5)
+  - WMPageController
+  - YYModel
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  BarrageRenderer: 00e5f8081d81f29c1fc12712ddf2f875bd9c6f77
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MJRefresh: 0efa19656679d70a0f47cbe76e56c2271fe53a97
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+  UMengAnalytics-NO-IDFA: 16666e32edce5be44ae5b14aaaa7f3582e09d6ab
+  WMPageController: 0c7624d2b48e4f1ab92371688cf6744ed701575d
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: e76f3b3e414f33df5a6320a53e622cc3df75aa2d
+
+COCOAPODS: 1.4.0

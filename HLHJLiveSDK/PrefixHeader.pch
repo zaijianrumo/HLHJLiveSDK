@@ -1,0 +1,38 @@
+//
+//  PrefixHeader.pch
+//  
+//
+//  Created by mac on 2018/5/21.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "Masonry.h"
+#import "UIImageView+WebCache.h"
+#import "HLHJNetworkTool.h"
+#import "YYModel.h"
+#import <TMSDK/TMViewController.h>
+#import "HLHJAPIHeader.h"
+#import <TMSDK/TMEngineConfig.h>
+#import "HLHJLoginTool.h"
+
+/** 屏幕高度 */
+#define ScreenH [UIScreen mainScreen].bounds.size.height
+/** 屏幕宽度 */
+#define ScreenW [UIScreen mainScreen].bounds.size.width
+
+#define IS_IPHONEX (([[UIScreen mainScreen] bounds].size.height - 812) ? NO : YES)
+///导航默认高度
+#define kSNavBarHeight ((IS_IPHONEX) ? (88) : (64))
+
+#define WS(weakSelf) __weak __typeof(&*self) weakSelf = self
+
+
+#define HLHJBundle(bundle)  [NSBundle bundleWithPath:[[NSBundle mainBundle] pathForResource:(bundle) ofType:@"bundle"]]
+
+#define HLHJImage(name)  [UIImage imageNamed:[NSString stringWithFormat:@"HLHJNewLiveResource.bundle/%@",name]]
+
+#define shareUrl [NSString stringWithFormat:@"%@/hlhjlive/Api/download",BASE_URL]
+
+#endif /* PrefixHeader_pch */

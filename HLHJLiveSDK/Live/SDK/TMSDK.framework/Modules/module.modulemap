@@ -1,0 +1,6 @@
+framework module TMSDK {
+  umbrella header "TMSDK.h"
+
+  export *
+  module * { export * }
+}
