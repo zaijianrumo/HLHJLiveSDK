@@ -1,6 +1,0 @@
-framework module Pods_HLHJLiveSDK {
-  umbrella header "Pods-HLHJLiveSDK-umbrella.h"
-
-  export *
-  module * { export * }
-}

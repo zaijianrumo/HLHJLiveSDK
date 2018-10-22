@@ -1,6 +1,0 @@
-framework module SetI001 {
-  umbrella header "SetI001.h"
-
-  export *
-  module * { export * }
-}

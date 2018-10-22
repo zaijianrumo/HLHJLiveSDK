@@ -1,6 +1,0 @@
-framework module TMShare {
-  umbrella header "TMShare.h"
-
-  export *
-  module * { export * }
-}

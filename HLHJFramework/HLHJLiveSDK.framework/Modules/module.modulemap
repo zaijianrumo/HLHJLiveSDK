@@ -1,0 +1,6 @@
+framework module HLHJLiveSDK {
+  umbrella header "HLHJLiveSDK.h"
+
+  export *
+  module * { export * }
+}
