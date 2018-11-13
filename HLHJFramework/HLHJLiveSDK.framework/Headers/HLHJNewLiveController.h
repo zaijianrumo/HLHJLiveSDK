@@ -8,11 +8,11 @@
 
 #import <UIKit/UIKit.h>
 #import "WMPageController.h"
-
-
 /**
 
  */
 @interface HLHJNewLiveController : WMPageController
+
+
 
 @end

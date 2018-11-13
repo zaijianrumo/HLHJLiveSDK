@@ -4,7 +4,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "HLHJLiveSDK"
-  s.version      = "1.0.5"
+  s.version      = "1.0.7"
 
   s.summary      = "答题答题答题答题"
   s.description  = <<-DESC

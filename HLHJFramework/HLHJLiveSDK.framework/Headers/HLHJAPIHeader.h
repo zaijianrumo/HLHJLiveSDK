@@ -14,8 +14,6 @@
 
 /** 直播独立 */
 static NSString * const URL_KEYWORDS = @"hlhjlive";
-/**ISHIDENRADIO YES:隐藏广播 默认YES  */
-static const BOOL ISHIDENRADIO = NO;
 
 
 #endif /* HLHJAPIHeader_h */
