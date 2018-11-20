@@ -4,11 +4,11 @@
 Pod::Spec.new do |s|
 
   s.name         = "HLHJLiveSDK"
-  s.version      = "1.0.7"
+  s.version      = "1.0.8"
 
-  s.summary      = "答题答题答题答题"
+  s.summary      = "直播直播"
   s.description  = <<-DESC
-                   "答题答题答题答题"
+                   "直播直播直播直播直播直播"
                    DESC
 
   s.platform =   :ios, "9.0"
