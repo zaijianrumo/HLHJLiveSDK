@@ -4,7 +4,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "HLHJLiveSDK"
-  s.version      = "1.0.9"
+  s.version      = "1.1.0"
 
   s.summary      = "直播直播"
   s.description  = <<-DESC
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.xcconfig = {'VALID_ARCHS' => 'arm64 x86_64'}
 
   s.source_files            = "HLHJFramework/HLHJLiveSDK.framework/Headers/*.{h,m}" 
-  s.ios.vendored_frameworks = "HLHJFramework/HLHJLiveSDK.framework","HLHJFramework/IJKMediaFramework.framework"
+  s.ios.vendored_frameworks = "HLHJFramework/HLHJLiveSDK.framework"
   s.resources               = "HLHJFramework/HLHJNewLiveResource.bundle","HLHJFramework/HLHJLiveImgs.bundle"
 
   s.frameworks = 'VideoToolbox','UIKit','QuartzCore','OpenGLES','MobileCoreServices','MediaPlayer','CoreVideo','CoreMedia','CoreGraphics','AVFoundation','AudioToolbox'
@@ -37,6 +37,7 @@ Pod::Spec.new do |s|
   s.dependency            "WMPageController"
   s.dependency            "YYModel"
   s.dependency            "TMUserCenter"
+  s.dependency            "IJKMediaFramework"
 
 
 
