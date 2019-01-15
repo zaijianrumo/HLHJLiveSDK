@@ -4,7 +4,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "HLHJLiveSDK"
-  s.version      = "1.1.1"
+  s.version      = "1.1.2"
 
   s.summary      = "直播直播"
   s.description  = <<-DESC
